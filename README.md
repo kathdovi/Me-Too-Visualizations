@@ -1,68 +1,26 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+#intersectionalisee
+A data visualization app that allows users to visualize the ways pressing issues affect different intersections of the population.
 
-## Available Scripts
+##Inspiration:
+I wanted to try out data visualization, and I was originally inspired by the me too movement. I wanted to visualize the fact that so many communities that are not listened to are often the ones that face the most problems and should be listened to the most. After I implemented the sexual assault stats, I was inspired to find more categories to display the same theme.
 
-In the project directory, you can run:
+##What it does:
+intersectionalisee allows you to visualize the ways things such as sexual assault, poverty, unemployment, and incarceration affect different intersections of our population. The user clicks on a topic they'd like to explore and then is able to compare two different intersectional populations and see the different rates that the topic affects these demographics. The difference is then calculated for the user after they choose two intersectional populations to compare.
 
-### `npm start`
+##How we built it:
+create-react-app, Darude –– Sandstorm on repeat from the hours of midnight to 4am, lots of caffeine. I used git for version control and deployed onto Heroku. Also, Webpack broke for awhile there, which almost lead to a nervous breakdown.
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+##Challenges we ran into:
+Okay, domain.com is currently ruining my life. Google domains is so much easier. Also I spent hours reading docs for D3, experimenting, trying out libraries with D3, failing, and trying something else afterwards. Additionally, Webpack broke for awhile there, which almost lead to a nervous breakdown.
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+##Accomplishments that we're proud of:
+I made this entire project by myself start to finish. I'm proud of that! I didn't know if I would end up finishing an MVP and I was able to add a lot more on than I thought I'd be able to -- originally, this was just going to be for visualizing sexual assault statistics, but then I was able to add on poverty, unemployment, and incarceration (for the latter, I had to calculate the percentages myself with the raw numbers I found). This was the first solo project that I was able to finish and am ready to demo at a hackathon, so I'm thrilled by that. Also I'm proud of the fact that I didn't have a heart attack after all the caffeine I consumed.
 
-### `npm test`
+##What we learned:
+So much more about React.js (like state + props, which always confused me before), reading documentation still isn't great, Python is better for dataviz anyway, I shouldn't consume so much caffeine, using a custom domain on Heroku is difficult
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+##What's next:
+More topics, more demographics, less binary if data sets will allow (but I searched data set after data set and consistently had the problem of finding binary gender data). I also would love to implement more intersections such as sexuality.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+##Built with:
+React.js, love, Bootstrap, Google Fonts, mermaid magic, helpful libraries like ReactChartkick after spending way too much time going down useless roads with D3.js
