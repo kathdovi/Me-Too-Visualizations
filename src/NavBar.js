@@ -17,8 +17,14 @@ class NavBar extends React.Component {
                 <Link className="link" to="/sexualassault">
                     sexual assault
                 </Link>
-                    <Link className="link" to="/poverty">
+                <Link className="link" to="/poverty">
                         poverty
+                </Link>
+                 <Link className="link" to="/unemployment">
+                        unemployment
+                </Link>
+                <Link className="link" to="/incarceration">
+                        incarceration
                 </Link>
             </Nav>
           </Navbar>

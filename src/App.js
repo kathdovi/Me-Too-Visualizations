@@ -7,13 +7,18 @@ import Col from "react-bootstrap/Col";
 import FemaleAsian from "./Charts/Women/asian";
 import SexualAssault from "./SexualAssault";
 import Poverty from "./Poverty";
+import Unemployment from "./Unemployment";
+import Incarceration from "./Incarceration";
+import About from "./About";
 import NavBar from "./NavBar";
 
 const Main = () => (
   <Switch>
-    <Route exact path="/" component={SexualAssault} />
+    <Route exact path="/" component={About} />
     <Route exact path="/sexualassault" component={SexualAssault} />
     <Route exact path="/poverty" component={Poverty} />
+    <Route exact path="/unemployment" component={Unemployment} />
+    <Route exact path="/incarceration" component={Incarceration} />
   </Switch>
 );
 
