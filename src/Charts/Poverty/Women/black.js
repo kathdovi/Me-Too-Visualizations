@@ -7,7 +7,7 @@ class BlackWoman extends Component {
     return (
          <div>
     <div style={{textAlign: "center", fontSize: "30px"}}> Black Women  </div>
-    <PieChart colors={["#B3E3B5", "#FB9985"]} data={[["Experienced Sexual Assault", 29.1], ["Has Not Experienced Sexual Assault", 100-29.1]]}/>
+    <PieChart colors={["#B3E3B5", "#FB9985"]} data={[["Below 100% Poverty Level", 22.9], ["Not Below 100% Poverty Level", 100-22.9]]}/>
     </div> 
     )
   }

@@ -7,7 +7,7 @@ class WhiteMan extends Component {
     return (
        <div>
     <div style={{textAlign: "center", fontSize: "30px"}}> White Men </div>
-    <PieChart colors={["#B3E3B5", "#FB9985"]} data={[["Experienced Sexual Assault", 7.5], ["Has Not Experienced Sexual Assault", 100-7.5]]}/> 
+    <PieChart colors={["#B3E3B5", "#FB9985"]} data={[["Below 100% Poverty Level", 9.5], ["Not Below 100% Poverty Level", 100-9.5]]}/> 
     </div>
     )
   }
