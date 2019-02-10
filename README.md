@@ -11,7 +11,7 @@ intersectionalisee allows you to visualize the ways things such as sexual assaul
 create-react-app, Darude –– Sandstorm on repeat from the hours of midnight to 4am, lots of caffeine. I used git for version control and deployed onto Heroku. Also, Webpack broke for awhile there, which almost lead to a nervous breakdown.
 
 ## Challenges we ran into:
-Okay, domain.com is currently ruining my life. Google domains is so much easier. Also I spent hours reading docs for D3, experimenting, trying out libraries with D3, failing, and trying something else afterwards. Additionally, Webpack broke for awhile there, which almost lead to a nervous breakdown.
+Okay, domain.com & heroku are currently ruining my life. Google domains is so much easier. Also I spent hours reading docs for D3, experimenting, trying out libraries with D3, failing, and trying something else afterwards. Additionally, Webpack broke for awhile there, which almost lead to a nervous breakdown.
 
 ## Accomplishments that we're proud of:
 I made this entire project by myself start to finish. I'm proud of that! I didn't know if I would end up finishing an MVP and I was able to add a lot more on than I thought I'd be able to -- originally, this was just going to be for visualizing sexual assault statistics, but then I was able to add on poverty, unemployment, and incarceration (for the latter, I had to calculate the percentages myself with the raw numbers I found). This was the first solo project that I was able to finish and am ready to demo at a hackathon, so I'm thrilled by that. Also I'm proud of the fact that I didn't have a heart attack after all the caffeine I consumed.
