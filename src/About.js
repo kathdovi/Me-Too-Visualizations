@@ -20,10 +20,10 @@ class About extends Component {
             <p> In the future, we'd like to expand and include even more topics and even more demographics. Finding statistics that cover intersections in identities is tricky; please understand that if a certain identity intersection or topic was not covered, this was likely the reason why.</p>
             <p> For more information about this project, please contact Kathleen Doviken, developer, via the mediums below. </p>
              <a style={{ color: "white" }} href="https://www.linkedin.com/in/kathleen-doviken/">
-                <FontAwesomeIcon style={{ marginRight: "10px", color: "black"}} icon={["fab", "linkedin"]}/>
+                <FontAwesomeIcon style={{ marginRight: "20px", color: "black", fontSize: "30px"}} icon={["fab", "linkedin"]}/>
             </a>
             <a style={{ color: "white" }} href="https://github.com/kathdovi">
-                <FontAwesomeIcon icon={["fab", "github"]} style={{ color: "black" }}/>
+                <FontAwesomeIcon icon={["fab", "github"]} style={{ color: "black" , fontSize: "30px"}}/>
             </a>
         </div>
       );
