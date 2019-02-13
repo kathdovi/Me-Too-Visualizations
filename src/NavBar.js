@@ -9,25 +9,30 @@ class NavBar extends React.Component {
   render() {
     return (
         <div>
-          <Navbar className="nav" variant="light" style={{ backgroundColor: "#FB9985" }}>
+        <Navbar className="nav" variant="light" expand="md" style={{ backgroundColor: "#FB9985" }}>
+          <Navbar.Brand href="#home">
             <Link className="link" to="/">
-                intersectionalisee
+              intersectionalisee
             </Link>
+          </Navbar.Brand>
+          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto">
-                <Link className="link" to="/sexualassault">
-                    sexual assault
+              <Link className="link" to="/sexualassault">
+                sexual assault
                 </Link>
-                <Link className="link" to="/poverty">
-                        poverty
+              <Link className="link" to="/poverty">
+                poverty
                 </Link>
-                 <Link className="link" to="/unemployment">
-                        unemployment
+              <Link className="link" to="/unemployment">
+                unemployment
                 </Link>
-                <Link className="link" to="/incarceration">
-                        incarceration
+              <Link className="link" to="/incarceration">
+                incarceration
                 </Link>
             </Nav>
-          </Navbar>
+          </Navbar.Collapse>
+        </Navbar>
         </div>
     );
   }
